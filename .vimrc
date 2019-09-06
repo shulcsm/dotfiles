@@ -1,6 +1,12 @@
 set nocompatible
 syntax on
 filetype plugin indent on
+
+call plug#begin('~/.vim/plugged')
+" Declare the list of plugins.
+Plug 'rust-lang/rust.vim'
+call plug#end()
+
 " Security
 set modelines=0
 
