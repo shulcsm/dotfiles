@@ -33,3 +33,4 @@ let g:solarized_termtrans=1
 colorscheme solarized
 
 let g:rustfmt_autosave = 1
+
