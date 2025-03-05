@@ -1,6 +1,9 @@
 live_config_reload = true
 working_directory = "None"
 
+[env]
+term = "xterm-256color"
+
 [bell]
 animation = "EaseOutExpo"
 color = "0xffffff"
@@ -51,7 +54,7 @@ x = 0
 y = 0
 
 [font.normal]
-family = "Iosevka Term"
+family = "IosevkaTerm NF"
 style = "Regular"
 
 [font.offset]
