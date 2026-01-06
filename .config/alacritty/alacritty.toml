@@ -590,10 +590,10 @@ save_to_clipboard = false
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
 [window]
-decorations = "full"
-dynamic_padding = false
+decorations = "None"
+dynamic_padding = true
 dynamic_title = true
-startup_mode = "Windowed"
+startup_mode = "Fullscreen"
 
 [window.class]
 general = "Alacritty"
@@ -604,8 +604,8 @@ columns = 0
 lines = 0
 
 [window.padding]
-x = 6
-y = 6
+x = 4
+y = 4 
 
 [general]
 live_config_reload = true
