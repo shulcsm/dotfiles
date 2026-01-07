@@ -321,8 +321,8 @@ chars = "\u001B[21~"
 key = "F10"
 
 [[keyboard.bindings]]
-chars = "\u001B[23~"
 key = "F11"
+action = "ToggleFullScreen"
 
 [[keyboard.bindings]]
 chars = "\u001B[24~"
@@ -593,7 +593,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 decorations = "None"
 dynamic_padding = true
 dynamic_title = true
-startup_mode = "Fullscreen"
+startup_mode = "Maximized"
 
 [window.class]
 general = "Alacritty"
